@@ -1,6 +1,6 @@
-import { defineConfig } from '@mikro-orm/libsql';
+import { defineConfig } from "@mikro-orm/libsql";
 
 export default defineConfig({
-  dbName: 'db.sqlite',
-  entities: ['src/entities'],
+	dbName: "db/db.sqlite",
+	entities: ["src/entities"],
 });
